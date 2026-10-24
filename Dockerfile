@@ -6,7 +6,7 @@ RUN composer install --no-dev --no-interaction --no-scripts --no-autoloader --pr
 COPY . .
 RUN composer dump-autoload --no-dev --optimize --classmap-authoritative --no-scripts
 
-FROM php:8.4-apache
+FROM php:8.4.27-apache
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libpq-dev libicu-dev libzip-dev unzip \

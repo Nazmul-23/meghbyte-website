@@ -23,6 +23,10 @@
             @endif
         @endforeach
         <p class="note" style="margin-top:30px;font-size:14px">Hosting and domain are billed separately at cost. Small projects: 50% upfront, 50% before handover. Larger projects: milestone payments. Custom quotes available for anything not listed.</p>
+        <div class="card" style="margin-top:28px">
+            <h3>Care &amp; security, built in</h3>
+            <p>Every launch includes 30 days of free fixes. On a care plan, we apply critical security patches for PHP, Laravel and your server within 48 hours of an official advisory, plus regular updates and small changes, so your product stays safe without you having to watch the news.</p>
+        </div>
     </div>
 </section>
 
