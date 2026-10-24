@@ -83,7 +83,7 @@ class DatabaseSeeder extends Seeder
             'Website + Admin Panel' => ['websites', 'websites-ecommerce'],
             'E-commerce Store' => ['websites', 'websites-ecommerce'],
             'Business Mobile App' => ['apps', 'mobile-apps'],
-            'Coaching Center System' => ['systems', 'management-systems'],
+            'School & Coaching System' => ['systems', 'management-systems'],
             'Inventory & Billing' => ['systems', 'management-systems'],
             'Care & Maintenance' => ['care', 'care-maintenance'],
         ];
@@ -93,7 +93,7 @@ class DatabaseSeeder extends Seeder
                 'name' => $pk['name'],
                 'slug' => Str::slug($pk['name']),
                 'group' => $group,
-                'price' => (int) $pk['price_bdt'],
+                'price' => (int) ($pk['price'] ?? $pk['price_bdt'] ?? 0),
                 'price_suffix' => $pk['price_suffix'] ?: null,
                 'delivery' => $pk['delivery'] ?? null,
                 'features' => $pk['features'] ?? [],

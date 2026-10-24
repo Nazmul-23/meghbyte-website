@@ -36,7 +36,7 @@ class StoreQuoteRequest extends FormRequest
             'email' => ['nullable', 'email:rfc', 'max:150'],
             'business_name' => ['nullable', 'string', 'max:150'],
             'service_id' => ['nullable', 'integer', Rule::exists('services', 'id')->whereNull('deleted_at')],
-            'budget' => ['nullable', Rule::in(array_keys(QuoteRequest::BUDGETS))],
+            'budget' => ['nullable', Rule::in(QuoteRequest::PUBLIC_BUDGETS)],
             'message' => ['required', 'string', 'min:10', 'max:2000'],
         ];
     }
@@ -44,7 +44,7 @@ class StoreQuoteRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'phone.regex' => 'Please enter a valid phone number, e.g. 01XXXXXXXXX or +44…',
+            'phone.regex' => 'Please enter your number with country code, e.g. +1 555 123 4567.',
         ];
     }
 

@@ -1,138 +1,160 @@
 {
   "home": {
-    "hero_title": "Simple software that helps your business grow",
-    "hero_subtitle": "Meghbyte builds websites, e-commerce stores, mobile apps and management systems for businesses in Bangladesh and around the world. Clear prices, honest timelines and support after launch.",
-    "hero_bn": "আপনার ব্যবসার জন্য সহজ, নির্ভরযোগ্য সফটওয়্যার — হাটহাজারী, চট্টগ্রাম থেকে।",
+    "hero_title": "We build software that grows your business",
+    "hero_subtitle": "Meghbyte is a software studio that designs and builds websites, e-commerce stores, mobile apps and custom business systems for founders and growing companies worldwide.",
     "trust_points": [
-      "Fixed, written quote before work starts",
-      "Weekly updates with a live demo link",
-      "30 days of free bug fixing after launch",
-      "Training in Bangla or English"
+      "Fixed price, agreed in writing",
+      "Weekly progress demos",
+      "30 days of free fixes after launch",
+      "Clear communication in English"
     ],
     "why_us": [
       {
-        "title": "We run real businesses too",
-        "text": "Our founder runs a coaching center and a stainless steel and aluminium business. Our first products were built for those businesses and are used in them, so we understand daily operations, not just code."
+        "title": "Founder-led, product-minded",
+        "text": "Our founder runs real businesses and built software for them first, so we think about daily operations, not just code."
       },
       {
-        "title": "Clear prices, no surprises",
-        "text": "Every project starts with a written quote that lists what is included and when it will be delivered. Small projects are paid 50% in advance and 50% before handover; larger ones are paid by milestone."
+        "title": "Fixed scope, fixed price",
+        "text": "Every project starts with a written proposal: what is included, when it ships and what it costs. Pay by milestone."
       },
       {
-        "title": "You see progress every week",
-        "text": "While we build, you get a weekly update and a demo link you can open on your phone. You can give feedback early instead of waiting until the end."
+        "title": "Progress you can see",
+        "text": "A live demo link and a short update every week, so you can give feedback early instead of waiting until the end."
       },
       {
         "title": "Built to last",
-        "text": "We use proven tools like Laravel and Flutter, write clean code and stay available after launch. Our Care & Maintenance plan keeps your software secure, backed up and up to date."
+        "text": "Proven tools like Laravel and Flutter, clean code and an optional care plan that keeps everything secure and up to date."
       }
     ],
     "cta_title": "Have a project in mind?",
-    "cta_text": "Tell us what your business needs. We will reply with honest advice and a clear quote — no pressure, no jargon. Message us on WhatsApp at +880 1890-827598 or send the quote form."
+    "cta_text": "Tell us what you want to build. We reply within 24 hours with honest advice and a clear proposal."
   },
   "services": [
     {
       "slug": "websites-ecommerce",
       "title": "Websites & E-commerce",
-      "title_bn": "ওয়েবসাইট ও ই-কমার্স",
+      "title_bn": null,
       "icon": "🌐",
-      "summary": "Fast, mobile-friendly business websites and online stores built with Laravel.",
-      "description": "Your website is often the first place a customer checks before calling or visiting. We build clean, fast business websites that load well on mobile data, show your products or services clearly and make it easy for people to contact you through a form, WhatsApp or a phone call.\n\nWhen you are ready to sell online, we build full e-commerce stores with a product catalogue, cart, bKash and SSLCommerz payments, cash on delivery, order tracking, coupons and stock management. You get an admin panel to update everything yourself, without calling a developer for every small change.",
+      "summary": "Fast, conversion-focused websites and online stores built with Laravel.",
+      "description": "Your website is often the first place a customer checks before they buy or get in touch. We design and build fast, accessible websites that look great on every screen, explain your offer clearly and turn visitors into leads.\n\nWhen you are ready to sell online, we build full e-commerce stores with a product catalogue, cart, Stripe or PayPal payments, order tracking, coupons and stock management. You get an admin panel to update everything yourself.",
       "features": [
-        "Mobile-friendly design that loads fast",
-        "Admin panel to update content and products",
-        "bKash, SSLCommerz and cash on delivery",
+        "Custom UI/UX design for every page",
+        "Admin panel to manage content and products",
+        "Stripe, PayPal and local payment gateways",
         "Order, stock and coupon management",
-        "WhatsApp button, contact form and Google Map",
-        "Basic SEO so customers can find you on Google"
+        "Contact forms, booking and WhatsApp chat",
+        "Technical SEO and fast loading"
       ],
-      "tech": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Livewire"],
+      "tech": [
+        "Laravel",
+        "PHP",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Livewire"
+      ],
       "ideal_for": [
-        "Shops and showrooms that want to look trustworthy online",
-        "Facebook sellers ready for their own online store",
-        "Service businesses, schools and coaching centers"
+        "Startups launching a new product",
+        "Brands moving from social media to their own store",
+        "Service businesses, schools and clinics"
       ],
-      "starting_price_text": "Websites from ৳12,000 · E-commerce from ৳25,000"
+      "starting_price_text": "Websites from $299 · E-commerce from $799"
     },
     {
       "slug": "mobile-apps",
       "title": "Mobile Apps",
-      "title_bn": "মোবাইল অ্যাপ",
+      "title_bn": null,
       "icon": "📱",
-      "summary": "Android and iOS apps built with Flutter for customers, staff or your own daily work.",
-      "description": "A mobile app puts your business in your customer's pocket, or gives your team a simple tool they can use on the shop floor or on site. We build apps with Flutter, so one codebase can run on Android and, when you need it, on iOS too.\n\nOur own SS Helper app is a good example: it is a catalogue and quotation app used every day in a real stainless steel and aluminium business. We build apps the same way — focused on the few features that save time, with a clean design that anyone can learn quickly.",
+      "summary": "iOS and Android apps built with Flutter for customers, staff or internal tools.",
+      "description": "A mobile app puts your product in your customer's pocket, or gives your team a simple tool they can use anywhere. We build with Flutter, so one codebase runs on both iOS and Android.\n\nOur own SS Helper app is a good example: a catalogue and quotation app used every day in a real business. We build every app the same way: focused on the few features that matter, with a clean interface anyone can learn quickly.",
       "features": [
-        "Android app with optional iOS version",
-        "User login and secure accounts",
-        "Product or service catalogue",
+        "iOS and Android from one codebase",
+        "Secure login and user accounts",
+        "Catalogue, booking or ordering flows",
         "Push notifications",
-        "API connection to your website or system",
-        "Help with Play Store publishing"
+        "API integration with your website or system",
+        "App Store and Play Store publishing support"
       ],
-      "tech": ["Flutter", "Dart", "Firebase", "Laravel API", "REST"],
+      "tech": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Laravel API",
+        "REST"
+      ],
       "ideal_for": [
-        "Businesses that send quotations or price lists on the go",
-        "Shops that want a loyal customer app",
-        "Teams that need a simple internal tool on their phones"
+        "Startups building an MVP",
+        "Businesses that sell or quote on the go",
+        "Teams that need an internal tool on their phones"
       ],
-      "starting_price_text": "From ৳40,000"
+      "starting_price_text": "From $1,499"
     },
     {
       "slug": "management-systems",
       "title": "Management Systems",
-      "title_bn": "ম্যানেজমেন্ট সিস্টেম",
+      "title_bn": null,
       "icon": "🗂️",
-      "summary": "Custom software for coaching centers, schools, inventory, billing and POS.",
-      "description": "Many businesses still run on paper registers, Excel files and memory. That works until a fee is missed, stock runs out or a bill is calculated wrong. We build management systems that keep your records in one place and give you clear reports in a few clicks.\n\nOur Coaching Center Management System is being built first for Science Point Hathazari, our founder's own coaching center, so it is shaped by real daily needs: students, batches, attendance, fees, SMS and results. We also build inventory, billing and POS systems for shops, showrooms and small factories, available as a one-time purchase or a monthly plan.",
+      "summary": "Custom dashboards, CRMs, inventory, billing and school management software.",
+      "description": "Many businesses still run on spreadsheets, paper and memory. That works until a payment is missed, stock runs out or a report takes a whole day. We build custom systems that keep your data in one place and give you clear reports in a few clicks.\n\nOur school and coaching management system is being built and tested in a real classroom, covering students, classes, attendance, fees, notifications and results. We also build inventory, billing, POS and CRM tools shaped around how your team actually works.",
       "features": [
-        "Student, batch and attendance management",
-        "Fee collection with due reminders by SMS",
-        "Inventory and stock tracking",
-        "Billing, invoices and POS",
-        "Daily, monthly and yearly reports",
-        "Role-based access for owners and staff"
+        "Custom dashboards and reports",
+        "Inventory, billing and invoicing",
+        "CRM and lead pipelines",
+        "School and coaching management",
+        "Role-based access for owners and staff",
+        "Integrations with SMS, email and payments"
       ],
-      "tech": ["Laravel", "MySQL", "Livewire", "SMS gateway", "Flutter"],
+      "tech": [
+        "Laravel",
+        "PostgreSQL",
+        "Livewire",
+        "REST APIs",
+        "Flutter"
+      ],
       "ideal_for": [
-        "Coaching centers and schools",
-        "Retail shops, showrooms and wholesalers",
-        "Small factories and workshops"
+        "Schools and training centers",
+        "Retailers, wholesalers and distributors",
+        "Service companies replacing spreadsheets"
       ],
-      "starting_price_text": "Coaching system ৳3,000 setup + ৳1,000/month · Inventory & Billing from ৳20,000 or ৳1,500/month"
+      "starting_price_text": "Custom systems from $699"
     },
     {
       "slug": "care-maintenance",
       "title": "Care & Maintenance",
-      "title_bn": "রক্ষণাবেক্ষণ ও সাপোর্ট",
+      "title_bn": null,
       "icon": "🛠️",
-      "summary": "Ongoing updates, backups, security and small changes so your software keeps working.",
-      "description": "Software is not finished on launch day. Servers need updates, backups need checking and you will want small changes as your business grows. Without care, a website can slow down, break after an update or become a security risk.\n\nOur Care & Maintenance plan covers the routine work for a fixed monthly fee. We keep your website or system updated, backed up and monitored, and we handle small content and design changes for you. It is available for projects we built and, after a quick review, for existing Laravel websites.",
+      "summary": "Updates, backups, security and small improvements so your product keeps running.",
+      "description": "Software is not finished on launch day. Servers need updates, backups need checking and you will want improvements as you grow. Without care, a website can slow down, break after an update or become a security risk.\n\nOur Care & Maintenance plan covers the routine work for a fixed monthly fee. We keep your website or app updated, backed up and monitored, and we handle small changes for you. It is available for projects we built and, after a quick review, for existing Laravel projects.",
       "features": [
-        "Regular software and security updates",
+        "Software and security updates",
         "Scheduled backups",
         "Uptime monitoring",
         "Small content and design changes",
         "Bug fixes",
-        "Support by WhatsApp in Bangla or English"
+        "Priority support by email or WhatsApp"
       ],
-      "tech": ["Laravel", "Linux servers", "cPanel", "Cloudflare"],
+      "tech": [
+        "Laravel",
+        "Linux servers",
+        "Cloudflare",
+        "GitHub"
+      ],
       "ideal_for": [
-        "Businesses without an in-house developer",
-        "Owners who want peace of mind after launch",
-        "Existing Laravel websites that need regular care"
+        "Teams without an in-house developer",
+        "Founders who want peace of mind after launch",
+        "Existing Laravel projects that need regular care"
       ],
-      "starting_price_text": "From ৳800/month"
+      "starting_price_text": "From $49/month"
     }
   ],
   "projects": [
     {
       "slug": "ss-helper",
       "title": "SS Helper",
-      "client_type": "Stainless steel & aluminium business (founder's own)",
+      "client_type": "Stainless steel & aluminium fabrication business",
       "status": "Live",
       "summary": "A Flutter catalogue and quotation app used daily in a stainless steel and aluminium business.",
-      "problem": "Prices and product details for stainless steel and aluminium work were spread across notebooks and memory. Preparing a quotation for a customer took time, and the numbers were not always consistent from one quote to the next.",
-      "solution": "We built SS Helper, a Flutter mobile app that holds the product catalogue and prepares quotations in a few taps. Quotations can be shared with customers directly from the phone, on site or in the shop.",
+      "problem": "Prices and product details were spread across notebooks and memory. Preparing a quotation took too long, and numbers were not always consistent from one quote to the next.",
+      "solution": "We built SS Helper, a Flutter mobile app that holds the full product catalogue and prepares professional quotations in a few taps. Quotes are shared with customers straight from the phone, on site or in the showroom.",
       "features": [
         "Product catalogue with item details and prices",
         "Quick quotation builder",
@@ -140,127 +162,139 @@
         "Share quotations directly from the phone",
         "Simple interface for daily use"
       ],
-      "tech": ["Flutter", "Dart"],
-      "result": "SS Helper is live and used every day in the founder's own business to prepare catalogues and quotations. It is our working proof that we build software for real daily use."
+      "tech": [
+        "Flutter",
+        "Dart"
+      ],
+      "result": "SS Helper is live and used every day to prepare catalogues and quotations. It is our working proof that we build software for real daily use."
     },
     {
       "slug": "coaching-center-management-system",
-      "title": "Coaching Center Management System",
-      "client_type": "Coaching center (Science Point Hathazari)",
+      "title": "School & Coaching Management System",
+      "client_type": "Education business",
       "status": "In development",
-      "summary": "A management system for coaching centers, built first for Science Point Hathazari.",
-      "problem": "Running a coaching center means tracking students, batches, attendance, monthly fees and exam results. Doing this on paper or in spreadsheets is slow, and missed fees or lost records are common.",
-      "solution": "We are building a web-based system that keeps all student, batch, attendance, fee and result records in one place, with SMS notifications to guardians. It is being shaped by real use at Science Point Hathazari, the founder's own coaching center.",
+      "summary": "A management system for schools and coaching centers, built and tested in a real classroom.",
+      "problem": "Running a school or coaching center means tracking students, classes, attendance, monthly fees and exam results. Doing this on paper or in spreadsheets is slow, and missed fees or lost records are common.",
+      "solution": "We are building a web-based system that keeps student, class, attendance, fee and result records in one place, with SMS and email notifications to parents. It is being shaped by daily use in a real education business.",
       "features": [
-        "Student and batch management",
+        "Student and class management",
         "Attendance tracking",
         "Fee collection and due tracking",
-        "SMS notifications",
-        "Exam results"
+        "SMS and email notifications",
+        "Exam results and report cards"
       ],
-      "tech": ["Laravel", "MySQL", "SMS gateway"],
-      "result": "The system is in active development and is being tested at Science Point Hathazari. It will be offered to other coaching centers at ৳3,000 setup + ৳1,000/month."
+      "tech": [
+        "Laravel",
+        "PostgreSQL",
+        "Livewire",
+        "SMS gateway"
+      ],
+      "result": "The system is in active development and being tested with real students and staff. It will be available to other schools and training centers as a monthly subscription."
     },
     {
       "slug": "laravel-ecommerce-store",
       "title": "Laravel E-commerce Store",
-      "client_type": "Online retail (founder's project)",
+      "client_type": "Online retail",
       "status": "In development",
-      "summary": "A full e-commerce store built with Laravel, designed for Bangladeshi online sellers.",
-      "problem": "Many Bangladeshi sellers depend on Facebook posts and inbox orders, which are hard to track and easy to lose. They need a proper online store that supports local payment methods without paying for an expensive foreign platform.",
-      "solution": "We are building a Laravel e-commerce store with a product catalogue, cart, local payment options and an admin panel for orders and stock. It is the foundation we use for client e-commerce projects.",
+      "summary": "A full e-commerce store built with Laravel, ready to adapt for any product catalogue.",
+      "problem": "Many small brands sell through social media posts and direct messages, which are hard to track and easy to lose. They need a proper online store without paying for an expensive platform every month.",
+      "solution": "We are building a Laravel e-commerce foundation with a product catalogue, cart, online payments and an admin panel for orders and stock. It is the base we use for client e-commerce projects.",
       "features": [
         "Product catalogue and cart",
-        "bKash, SSLCommerz and cash on delivery",
+        "Stripe, PayPal and local payment gateways",
         "Order management",
         "Coupons and stock tracking",
         "Sales reports"
       ],
-      "tech": ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
-      "result": "This is the founder's own Laravel project and the base for our E-commerce Store package. It lets us start client stores from a tested foundation instead of from zero."
+      "tech": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "result": "This foundation powers our E-commerce Store package, so client stores start from tested code instead of from zero."
     }
   ],
   "packages": [
     {
       "name": "Starter Business Website",
-      "price_bdt": 12000,
       "price_suffix": "",
       "delivery": "1–2 weeks",
       "features": [
-        "5–7 pages",
-        "Mobile-friendly design",
-        "Contact form and WhatsApp button",
-        "Google Map location",
-        "Basic SEO setup"
+        "Up to 7 pages",
+        "Custom responsive design",
+        "Contact form and chat button",
+        "Technical SEO setup",
+        "Hosting setup support"
       ],
       "highlighted": false,
-      "sort_order": 1
+      "sort_order": 1,
+      "price": 299
     },
     {
       "name": "Website + Admin Panel",
-      "price_bdt": 20000,
       "price_suffix": "",
       "delivery": "2–3 weeks",
       "features": [
-        "Everything in Starter Business Website",
+        "Everything in Starter",
         "Admin panel to edit pages yourself",
         "Manage services, products or gallery",
-        "View contact form messages",
-        "Training on how to use the panel"
+        "Inbox for form submissions",
+        "Hand-over training call"
       ],
       "highlighted": false,
-      "sort_order": 2
+      "sort_order": 2,
+      "price": 499
     },
     {
       "name": "E-commerce Store",
-      "price_bdt": 25000,
       "price_suffix": "",
       "delivery": "4–6 weeks",
       "features": [
         "Product catalogue and cart",
-        "bKash, SSLCommerz and cash on delivery",
+        "Stripe, PayPal or local gateways",
         "Order management",
         "Coupons and discounts",
         "Stock tracking",
         "Sales reports"
       ],
       "highlighted": true,
-      "sort_order": 3
+      "sort_order": 3,
+      "price": 799
     },
     {
       "name": "Business Mobile App",
-      "price_bdt": 40000,
       "price_suffix": "",
       "delivery": "5–8 weeks",
       "features": [
-        "Android app built with Flutter",
+        "iOS and Android with Flutter",
         "User login",
-        "Product or service catalogue",
+        "Catalogue, booking or ordering",
         "Push notifications",
-        "API connection",
-        "iOS version optional"
+        "API integration",
+        "Store publishing support"
       ],
       "highlighted": false,
-      "sort_order": 4
+      "sort_order": 4,
+      "price": 1499
     },
     {
-      "name": "Coaching Center System",
-      "price_bdt": 3000,
-      "price_suffix": " + ৳1,000/month",
+      "name": "School & Coaching System",
+      "price_suffix": "/month",
       "delivery": "Ready to set up",
       "features": [
-        "Student and batch management",
+        "Student and class management",
         "Attendance tracking",
         "Fee collection and dues",
-        "SMS notifications",
+        "SMS and email notifications",
         "Exam results"
       ],
       "highlighted": false,
-      "sort_order": 5
+      "sort_order": 5,
+      "price": 99
     },
     {
       "name": "Inventory & Billing",
-      "price_bdt": 20000,
       "price_suffix": "",
       "delivery": "2–4 weeks",
       "features": [
@@ -268,14 +302,14 @@
         "Billing and invoices",
         "Purchase and sales records",
         "Daily and monthly reports",
-        "Monthly plan available at ৳1,500/month"
+        "Monthly plan available"
       ],
       "highlighted": false,
-      "sort_order": 6
+      "sort_order": 6,
+      "price": 699
     },
     {
       "name": "Care & Maintenance",
-      "price_bdt": 800,
       "price_suffix": "/month",
       "delivery": "Ongoing",
       "features": [
@@ -283,110 +317,115 @@
         "Regular backups",
         "Uptime monitoring",
         "Small content changes",
-        "WhatsApp support"
+        "Priority support"
       ],
       "highlighted": false,
-      "sort_order": 7
+      "sort_order": 7,
+      "price": 49
     }
   ],
   "posts": [
     {
       "slug": "website-or-facebook-page",
-      "title": "Does your shop need a website or just a Facebook page?",
-      "excerpt": "A Facebook page is a great start, but it is not the same as owning your online home. Here is an honest way to decide what your shop needs right now.",
-      "body_markdown": "Almost every shop in Bangladesh starts online with a Facebook page, and that makes sense. It is free, your customers are already there and you can post a new product in two minutes. So do you really need a website? The honest answer is: it depends on how you sell and where you want to go.\n\n## What a Facebook page does well\n\n- **Reach.** Most of your local customers scroll Facebook every day.\n- **Conversation.** Messenger makes it easy to answer questions and close a sale.\n- **Low cost.** You can start today with no budget.\n\nIf you sell a few products, mostly to people nearby, and you are happy taking orders by inbox, a well-managed Facebook page may be enough for now.\n\n## Where a Facebook page falls short\n\n- **You do not own it.** If your page is restricted, hacked or the algorithm changes, your reach can drop overnight.\n- **Posts get buried.** A customer looking for a product you posted three months ago has to scroll and scroll. Many give up.\n- **Orders are messy.** Inbox orders, screenshots and handwritten notes are easy to lose, especially during Eid or a sale.\n- **Google does not show it well.** When someone searches \"steel almirah Chattogram\" or \"coaching center Hathazari\", a proper website has a much better chance of appearing.\n- **Trust.** Bigger buyers, corporate clients and foreign customers often check for a website before they call.\n\n## A simple way to decide\n\nAsk yourself these questions:\n\n1. Do customers often ask for your full price list or catalogue?\n2. Do you lose track of orders or payments?\n3. Do you want customers from outside your area, or from Google?\n4. Do you deal with companies, institutions or buyers abroad?\n\nIf you answered yes to one or two, a simple business website (5–7 pages, contact form, WhatsApp button and map) will help. If you answered yes to most, and you sell products online regularly, an e-commerce store with bKash, cash on delivery and order management will save you time every single day.\n\n## You do not have to choose one\n\nThe best setup for most shops is both. Use Facebook to reach people and start conversations, and use your website as the place where they see everything clearly, trust you and place an order. Every Facebook post can link back to the right product page.\n\n## Start small\n\nYou do not need a big budget to begin. A starter business website can be ready in one to two weeks, and you can upgrade to an admin panel or a full store later. The important thing is to own a place online that is yours.\n\nNot sure which option fits your shop? Message us on WhatsApp and describe how you sell today. We will give you an honest recommendation, even if the answer is \"your Facebook page is enough for now\"."
+      "title": "Does your business need a website or just a social media page?",
+      "excerpt": "A social media page is a great start, but it is not the same as owning your online home. Here is an honest way to decide what you need right now.",
+      "body_markdown": "Almost every small shop starts online with a Facebook page, and that makes sense. It is free, your customers are already there and you can post a new product in two minutes. So do you really need a website? The honest answer is: it depends on how you sell and where you want to go.\n\n## What a Facebook page does well\n\n- **Reach.** Most of your local customers scroll Facebook every day.\n- **Conversation.** Messenger makes it easy to answer questions and close a sale.\n- **Low cost.** You can start today with no budget.\n\nIf you sell a few products, mostly to people nearby, and you are happy taking orders by inbox, a well-managed Facebook page may be enough for now.\n\n## Where a Facebook page falls short\n\n- **You do not own it.** If your page is restricted, hacked or the algorithm changes, your reach can drop overnight.\n- **Posts get buried.** A customer looking for a product you posted three months ago has to scroll and scroll. Many give up.\n- **Orders are messy.** Inbox orders, screenshots and handwritten notes are easy to lose, especially during a big sale.\n- **Google does not show it well.** When someone searches \"custom furniture near me\" or \"math tutoring in my city\", a proper website has a much better chance of appearing.\n- **Trust.** Bigger buyers, corporate clients and foreign customers often check for a website before they call.\n\n## A simple way to decide\n\nAsk yourself these questions:\n\n1. Do customers often ask for your full price list or catalogue?\n2. Do you lose track of orders or payments?\n3. Do you want customers from outside your area, or from Google?\n4. Do you deal with companies, institutions or buyers abroad?\n\nIf you answered yes to one or two, a simple business website (5–7 pages, contact form, WhatsApp button and map) will help. If you answered yes to most, and you sell products online regularly, an e-commerce store with online payments and order management will save you time every single day.\n\n## You do not have to choose one\n\nThe best setup for most shops is both. Use Facebook to reach people and start conversations, and use your website as the place where they see everything clearly, trust you and place an order. Every Facebook post can link back to the right product page.\n\n## Start small\n\nYou do not need a big budget to begin. A starter business website can be ready in one to two weeks, and you can upgrade to an admin panel or a full store later. The important thing is to own a place online that is yours.\n\nNot sure which option fits your shop? Message us on WhatsApp and describe how you sell today. We will give you an honest recommendation, even if the answer is \"your Facebook page is enough for now\"."
     },
     {
       "slug": "coaching-center-management-system-savings",
       "title": "What a coaching center management system actually saves you",
       "excerpt": "Beyond the buzzwords: the real hours, money and stress a simple management system can save a coaching center every month.",
-      "body_markdown": "If you run a coaching center, you know the real work starts after class. Who has paid this month? Who missed three classes in a row? Which batch has a free seat? Which guardian needs a call? Most centers answer these questions with registers, Excel sheets and memory. A management system does not replace teaching, but it can take a lot of that weight off your shoulders.\n\nWe are building our own Coaching Center Management System first for Science Point Hathazari, so these are lessons from a real center, not a sales brochure.\n\n## 1. Time spent on fee collection\n\nAt the start of each month, someone goes through the register to find who has paid and who has not. With a system, dues are calculated automatically. You open one screen and see every unpaid student by batch. You can send an SMS reminder to all guardians with dues in a single step instead of making call after call.\n\n## 2. Money lost to missed fees\n\nWhen records live on paper, some fees are simply forgotten, especially when a student joins mid-month or changes batch. Even a few missed fees each month add up over a year. A system that tracks every student and every payment closes those gaps.\n\n## 3. Attendance headaches\n\nMarking attendance on paper is quick, but finding patterns is not. A system can show you which students are absent often, so you can talk to them or their guardians before they drop out. Keeping students is always cheaper than finding new ones.\n\n## 4. Results and guardian communication\n\nPreparing exam results by hand and sharing them one by one takes hours. With results stored in the system, you can publish them quickly and send an SMS to guardians. Parents notice when a center communicates clearly, and that builds your reputation.\n\n## 5. Your own peace of mind\n\nThis is the saving people talk about least but feel the most. When all your records are in one place and backed up, you are not afraid of losing a register or a laptop. You can check how your center is doing from your phone, even when you are not there.\n\n## What it costs\n\nA good system should not be a big burden. Our Coaching Center System is priced at ৳3,000 for setup plus ৳1,000 per month, which covers students, batches, attendance, fees, SMS and results. For many centers, recovering just one or two missed fees a month covers the cost.\n\n## Is it right for you?\n\nIf you have more than one batch, more than a few dozen students, or you spend hours every month chasing fees, a management system will likely pay for itself. If you are just starting with a handful of students, a register may still be fine, and that is okay too.\n\nWant to see how it works? Message us on WhatsApp and we will show you a demo and answer your questions in Bangla or English."
+      "body_markdown": "If you run a coaching center, you know the real work starts after class. Who has paid this month? Who missed three classes in a row? Which batch has a free seat? Which guardian needs a call? Most centers answer these questions with registers, Excel sheets and memory. A management system does not replace teaching, but it can take a lot of that weight off your shoulders.\n\nWe are building our own School & Coaching Management System and testing it in a real classroom, so these are lessons from daily use, not a sales brochure.\n\n## 1. Time spent on fee collection\n\nAt the start of each month, someone goes through the register to find who has paid and who has not. With a system, dues are calculated automatically. You open one screen and see every unpaid student by batch. You can send an SMS reminder to all guardians with dues in a single step instead of making call after call.\n\n## 2. Money lost to missed fees\n\nWhen records live on paper, some fees are simply forgotten, especially when a student joins mid-month or changes batch. Even a few missed fees each month add up over a year. A system that tracks every student and every payment closes those gaps.\n\n## 3. Attendance headaches\n\nMarking attendance on paper is quick, but finding patterns is not. A system can show you which students are absent often, so you can talk to them or their guardians before they drop out. Keeping students is always cheaper than finding new ones.\n\n## 4. Results and guardian communication\n\nPreparing exam results by hand and sharing them one by one takes hours. With results stored in the system, you can publish them quickly and send an SMS to guardians. Parents notice when a center communicates clearly, and that builds your reputation.\n\n## 5. Your own peace of mind\n\nThis is the saving people talk about least but feel the most. When all your records are in one place and backed up, you are not afraid of losing a register or a laptop. You can check how your center is doing from your phone, even when you are not there.\n\n## What it costs\n\nA good system should not be a big burden. Our School & Coaching System is priced at $99 per month, which covers students, batches, attendance, fees, SMS and results. For many centers, recovering just one or two missed fees a month covers the cost.\n\n## Is it right for you?\n\nIf you have more than one batch, more than a few dozen students, or you spend hours every month chasing fees, a management system will likely pay for itself. If you are just starting with a handful of students, a register may still be fine, and that is okay too.\n\nWant to see how it works? Message us on WhatsApp and we will show you a demo and answer your questions."
     },
     {
       "slug": "how-to-brief-a-software-agency",
       "title": "How to brief a software agency so you get the right price",
       "excerpt": "Vague requests lead to vague quotes. A short, clear brief helps any agency give you an accurate price and timeline. Here is what to include.",
-      "body_markdown": "\"How much does a website cost?\" is one of the most common questions we receive. It is a fair question, but it is a bit like asking \"How much does a house cost?\" The answer depends on what you need. The good news is that you do not need technical knowledge to get an accurate quote. You only need to explain your business clearly.\n\nHere is a simple brief you can prepare in 15 minutes and send to any agency, including us.\n\n## 1. Tell us about your business\n\nWrite two or three lines: what you sell, who your customers are and where you operate. For example: \"We sell stainless steel kitchen racks and railings in Chattogram, mostly to home owners and builders.\"\n\n## 2. Describe the problem, not just the solution\n\nInstead of only saying \"I need an app\", explain what is not working today. \"Our sales staff take 20 minutes to prepare each quotation\" or \"We lose track of inbox orders during sales\" tells an agency much more. Sometimes the right solution is smaller and cheaper than you expected.\n\n## 3. List the must-have features\n\nKeep this list short and honest. Separate what you need on day one from what would be nice later. For an online store, must-haves might be: product catalogue, cart, bKash and cash on delivery, and order management. Nice-to-haves might be: coupons, a mobile app or customer reviews.\n\n## 4. Share examples you like\n\nSend links to two or three websites or apps you like, and say what you like about them: the colours, the simple layout, the way products are shown. This saves a lot of back-and-forth.\n\n## 5. Mention your content\n\nWho will provide text, product photos, prices and logo? If you already have them, say so. If you need help, mention it. Missing content is one of the most common reasons projects get delayed.\n\n## 6. Be open about budget and deadline\n\nMany owners hide their budget, worried they will be overcharged. In practice, sharing a range helps a good agency suggest the best option within it. If you have a real deadline, such as a shop opening or the Eid season, mention it early.\n\n## 7. Ask the right questions back\n\nWhen you receive a quote, check:\n\n- What exactly is included, and what is not?\n- How long will it take, and how will I see progress?\n- What happens after launch? Is there free support?\n- Who owns the domain, hosting and code?\n- How is payment split?\n\nAt Meghbyte, every quote lists the features, the timeline and the payment terms in writing. Small projects are paid 50% in advance and 50% before handover, larger ones by milestone, and every project includes 30 days of free bug fixing after launch.\n\n## A short brief beats a long meeting\n\nA few clear paragraphs on WhatsApp are enough to start. Send us your brief and we will reply with questions, suggestions and an honest quote."
+      "body_markdown": "\"How much does a website cost?\" is one of the most common questions we receive. It is a fair question, but it is a bit like asking \"How much does a house cost?\" The answer depends on what you need. The good news is that you do not need technical knowledge to get an accurate quote. You only need to explain your business clearly.\n\nHere is a simple brief you can prepare in 15 minutes and send to any agency, including us.\n\n## 1. Tell us about your business\n\nWrite two or three lines: what you sell, who your customers are and where you operate. For example: \"We sell stainless steel kitchen racks and railings, mostly to home owners and builders.\"\n\n## 2. Describe the problem, not just the solution\n\nInstead of only saying \"I need an app\", explain what is not working today. \"Our sales staff take 20 minutes to prepare each quotation\" or \"We lose track of inbox orders during sales\" tells an agency much more. Sometimes the right solution is smaller and cheaper than you expected.\n\n## 3. List the must-have features\n\nKeep this list short and honest. Separate what you need on day one from what would be nice later. For an online store, must-haves might be: product catalogue, cart, online payments and order management. Nice-to-haves might be: coupons, a mobile app or customer reviews.\n\n## 4. Share examples you like\n\nSend links to two or three websites or apps you like, and say what you like about them: the colours, the simple layout, the way products are shown. This saves a lot of back-and-forth.\n\n## 5. Mention your content\n\nWho will provide text, product photos, prices and logo? If you already have them, say so. If you need help, mention it. Missing content is one of the most common reasons projects get delayed.\n\n## 6. Be open about budget and deadline\n\nMany owners hide their budget, worried they will be overcharged. In practice, sharing a range helps a good agency suggest the best option within it. If you have a real deadline, such as a launch date or a busy season, mention it early.\n\n## 7. Ask the right questions back\n\nWhen you receive a quote, check:\n\n- What exactly is included, and what is not?\n- How long will it take, and how will I see progress?\n- What happens after launch? Is there free support?\n- Who owns the domain, hosting and code?\n- How is payment split?\n\nAt Meghbyte, every quote lists the features, the timeline and the payment terms in writing. Small projects are paid 50% in advance and 50% before handover, larger ones by milestone, and every project includes 30 days of free bug fixing after launch.\n\n## A short brief beats a long meeting\n\nA few clear paragraphs by email or WhatsApp are enough to start. Send us your brief and we will reply with questions, suggestions and an honest quote."
     }
   ],
   "about": {
     "title": "About Meghbyte",
+    "mission": "To give founders and growing businesses simple, reliable software at a fair price, built by a small team that cares about the result.",
     "story": [
-      "Meghbyte is a software agency based in Hathazari, Chattogram. \"Megh\" means cloud in Bangla, and that is how we think about software: something that should quietly carry the heavy load in the background, so you can focus on running your business.",
-      "Meghbyte was founded by Nazmul Hossain, who also runs Science Point Hathazari, a coaching center for HSC students, and a stainless steel and aluminium business. He started building software to solve problems in his own businesses. SS Helper, a catalogue and quotation app, is now used every day in the steel and aluminium work, and a Coaching Center Management System is being built and tested at Science Point Hathazari.",
-      "That experience shapes how we work. We know what it is like to chase fees, prepare quotations late at night and lose track of orders, so we build software that is simple to use and solves real problems. We work with small businesses, shops, coaching centers and schools across Bangladesh, and with clients around the world."
+      "Meghbyte is a software studio. \"Megh\" means cloud, and that is how we think about software: it should quietly carry the heavy load in the background so you can focus on running your business.",
+      "Meghbyte was founded by Nazmul Hossain, who also runs an education business and a stainless steel and aluminium business. He started building software to solve problems in his own companies. SS Helper, a catalogue and quotation app, is used every day in that business, and a school and coaching management system is being built and tested in a real classroom.",
+      "That experience shapes how we work. We know what it is like to chase payments, prepare quotations late at night and lose track of orders, so we build software that is simple to use and solves real problems. Today we work with founders, small businesses and teams around the world."
     ],
-    "mission": "To give small and growing businesses simple, honest and long-lasting software at a fair price, and to explain it clearly in Bangla or English.",
     "values": [
       {
         "title": "Simple",
-        "text": "We build software that your team can learn quickly, and we explain things in plain words, without technical jargon."
+        "text": "Software your team learns in an afternoon, explained in plain words, without jargon."
       },
       {
         "title": "Honest",
-        "text": "Clear quotes, realistic timelines and weekly updates. If something is not the right fit for your business, we will tell you."
+        "text": "Clear proposals, realistic timelines and weekly updates. If something is not the right fit, we will tell you."
       },
       {
         "title": "Built to last",
-        "text": "We use proven tools, write clean code and stay available after launch, so your software keeps working as your business grows."
+        "text": "Proven tools, clean code and support after launch, so your product keeps working as you grow."
       }
     ]
   },
   "faq": [
     {
-      "q": "How much does a website cost?",
-      "a": "A starter business website starts from ৳12,000, a website with an admin panel from ৳20,000 and an e-commerce store from ৳25,000. The final price depends on your features, so we always send a written quote before any work starts."
+      "q": "How do I start a project with Meghbyte?",
+      "a": "Send us a short brief through the contact form or WhatsApp. We will book a free 30-minute call to understand your goals, then send a written proposal with scope, timeline and a fixed price."
     },
     {
-      "q": "How long will my project take?",
-      "a": "A starter website usually takes 1–2 weeks, a website with an admin panel 2–3 weeks, an e-commerce store 4–6 weeks and a business mobile app 5–8 weeks. Your quote will include a clear timeline based on your requirements."
+      "q": "How much does a project cost?",
+      "a": "Websites start from $299, e-commerce stores from $799, mobile apps from $1,499 and custom systems from $699. The final price depends on your features, so you always get a written proposal before any work starts."
+    },
+    {
+      "q": "How long does a project take?",
+      "a": "A starter website usually takes 1–2 weeks, an e-commerce store 4–6 weeks and a mobile app 5–8 weeks. Your proposal includes a clear timeline with milestones."
     },
     {
       "q": "How does payment work?",
-      "a": "For small projects, we take 50% in advance and 50% before handover. Larger projects are divided into milestones, so you pay as each part is completed and approved."
+      "a": "Small projects are paid 50% upfront and 50% before handover. Larger projects are split into milestones, so you pay as each part is completed and approved. We accept international bank transfer and online payment."
     },
     {
-      "q": "What happens after my website or app is launched?",
-      "a": "Every project includes 30 days of free bug fixing and training in Bangla or English. After that, you can choose our Care & Maintenance plan from ৳800/month for updates, backups and small changes."
+      "q": "Do you work with international clients?",
+      "a": "Yes. We work with clients worldwide. Most communication happens over email, WhatsApp, Slack or video calls, and we share a live demo link every week so you never lose track of progress."
     },
     {
-      "q": "Can I see progress while you are building?",
-      "a": "Yes. We send weekly updates and a demo link you can open on your phone or computer, so you can give feedback throughout the project."
+      "q": "What happens after launch?",
+      "a": "Every project includes 30 days of free bug fixes and a hand-over session. After that you can choose our Care & Maintenance plan from $49/month for updates, backups and small changes."
     },
     {
-      "q": "Do you work with clients outside Chattogram or Bangladesh?",
-      "a": "Yes. We are based in Hathazari, Chattogram, but we work with clients anywhere in Bangladesh and around the world. Most communication happens on WhatsApp, phone or video call."
+      "q": "Will you sign an NDA?",
+      "a": "Yes. We are happy to sign an NDA before you share details about your idea or product."
     }
   ],
   "seo": {
     "home": {
-      "title": "Meghbyte | Websites, Apps & Management Software in Chattogram",
-      "description": "Meghbyte builds websites, e-commerce stores, Flutter apps and management systems for businesses in Bangladesh and worldwide. Clear prices and support after launch."
+      "title": "Meghbyte | Web, App & Custom Software Development Studio",
+      "description": "Meghbyte designs and builds websites, e-commerce stores, mobile apps and custom business software for founders and growing companies worldwide."
     },
     "services": {
-      "title": "Services | Websites, E-commerce, Mobile Apps & Systems | Meghbyte",
-      "description": "Laravel websites and online stores, Flutter mobile apps, coaching center, inventory and billing systems, plus monthly care and maintenance from Meghbyte."
+      "title": "Services | Web Development, Mobile Apps & Custom Software | Meghbyte",
+      "description": "Laravel websites and online stores, Flutter mobile apps, custom management systems and ongoing care and maintenance from Meghbyte."
     },
     "work": {
-      "title": "Our Work | Projects & Case Studies | Meghbyte",
-      "description": "See real Meghbyte projects: the SS Helper quotation app, a Coaching Center Management System and a Laravel e-commerce store."
+      "title": "Our Work | Case Studies | Meghbyte",
+      "description": "Real Meghbyte projects: the SS Helper quotation app, a school and coaching management system and a Laravel e-commerce store."
     },
     "pricing": {
-      "title": "Pricing | Website, App & Software Packages in BDT | Meghbyte",
-      "description": "Transparent starting prices: business websites from ৳12,000, e-commerce from ৳25,000, mobile apps from ৳40,000 and maintenance from ৳800/month."
+      "title": "Pricing | Website, App & Software Packages | Meghbyte",
+      "description": "Transparent starting prices in USD: websites from $299, e-commerce from $799, mobile apps from $1,499 and care plans from $49/month."
     },
     "about": {
-      "title": "About Meghbyte | Software Agency from Hathazari, Chattogram",
-      "description": "Meghbyte is a software agency founded by Nazmul Hossain in Hathazari, Chattogram. We build simple, honest software that lasts."
+      "title": "About Meghbyte | Founder-led Software Studio",
+      "description": "Meghbyte is a founder-led software studio. We build simple, reliable software that lasts."
     },
     "insights": {
-      "title": "Insights | Practical Software Tips for Businesses | Meghbyte",
-      "description": "Practical articles for Bangladeshi business owners on websites, e-commerce, management systems and working with a software agency."
+      "title": "Insights | Practical Software Advice for Founders | Meghbyte",
+      "description": "Practical articles on websites, e-commerce, business software and working with a development partner."
     },
     "contact": {
-      "title": "Contact Meghbyte | Get a Free Quote",
-      "description": "Tell us about your project and get a clear quote. WhatsApp +880 1890-827598. Based in Hathazari, Chattogram, working with clients worldwide."
+      "title": "Contact Meghbyte | Book a Free Consultation",
+      "description": "Tell us about your project and get a clear proposal within 24 hours. Free 30-minute consultation."
     }
   },
-  "privacy_policy_markdown": "# Privacy Policy\n\n*Last updated: October 2026*\n\nMeghbyte (\"we\", \"us\") respects your privacy. This policy explains what information we collect through our quote form and how we use it.\n\n## Information we collect\n\nWhen you submit the quote form, we store:\n\n- Your name\n- Your phone number\n- Your email address\n- Your business name\n- Your message\n\nWe only collect the information you choose to send us.\n\n## How we use your information\n\nWe use this information only to reply to your enquiry, discuss your project and send you a quote. We do not use it for advertising, and we do not sell, rent or share it with third parties, except where required by law.\n\n## Cookies and tracking\n\nOur website does not use tracking or advertising cookies. We may use cookies that are strictly necessary for the website to work, such as keeping the form secure.\n\n## How long we keep it\n\nWe keep your enquiry only as long as needed to respond and to keep a record of our conversation about your project.\n\n## Your rights\n\nYou can ask us to show, correct or delete your information at any time. To request deletion, message us on WhatsApp at **+880 1890-827598** and we will remove your data.\n\n## Security\n\nWe take reasonable steps to protect your information from unauthorised access, loss or misuse.\n\n## Contact\n\nMeghbyte, Hathazari, Chattogram, Bangladesh\nWhatsApp: +880 1890-827598\n\nWe may update this policy from time to time. Any changes will be posted on this page."
+  "privacy_policy_markdown": "# Privacy Policy\n\n*Last updated: October 2026*\n\nMeghbyte (\"we\", \"us\") respects your privacy. This policy explains what information we collect through our quote form and how we use it.\n\n## Information we collect\n\nWhen you submit the quote form, we store:\n\n- Your name\n- Your phone number\n- Your email address\n- Your business name\n- Your message\n\nWe only collect the information you choose to send us.\n\n## How we use your information\n\nWe use this information only to reply to your enquiry, discuss your project and send you a quote. We do not use it for advertising, and we do not sell, rent or share it with third parties, except where required by law.\n\n## Cookies and tracking\n\nOur website does not use tracking or advertising cookies. We may use cookies that are strictly necessary for the website to work, such as keeping the form secure.\n\n## How long we keep it\n\nWe keep your enquiry only as long as needed to respond and to keep a record of our conversation about your project.\n\n## Your rights\n\nYou can ask us to show, correct or delete your information at any time. To request deletion, message us on WhatsApp at **+880 1890-827598** and we will remove your data.\n\n## Security\n\nWe take reasonable steps to protect your information from unauthorised access, loss or misuse.\n\n## Contact\n\nMeghbyte\nWhatsApp: +880 1890-827598\n\nWe may update this policy from time to time. Any changes will be posted on this page."
 }

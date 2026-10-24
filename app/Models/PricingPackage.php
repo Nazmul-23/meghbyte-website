@@ -34,6 +34,6 @@ class PricingPackage extends Model
 
     public function formattedPrice(): string
     {
-        return '৳'.number_format($this->price);
+        return '$'.number_format($this->price);
     }
 }

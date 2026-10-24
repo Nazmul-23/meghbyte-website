@@ -18,7 +18,7 @@
                     <td>
                         @if(is_bool($v)){{ $v ? 'Yes' : 'No' }}
                         @elseif($v instanceof \DateTimeInterface){{ $v->format('j M Y') }}
-                        @elseif($col === 'price')৳{{ number_format((int) $v) }}
+                        @elseif($col === 'price')${{ number_format((int) $v) }}
                         @else{{ \Illuminate\Support\Str::limit((string) $v, 70) }}
                         @endif
                     </td>

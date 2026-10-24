@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="hero page-hero">
+<section class="phead">
     <div class="wrap">
-        <div class="crumbs"><a href="{{ route('home') }}">Home</a> / Privacy policy</div>
-        <h1>Privacy policy</h1>
+        <div class="crumbs"><a href="{{ route('home') }}">Home</a> / Privacy</div>
+        <h1>Privacy <span class="serif grad-text">Policy</span></h1>
     </div>
 </section>
-<section class="block">
-    <div class="wrap"><div class="prose">{!! $html !!}</div></div>
+<section class="sec" style="padding-top:50px">
+    <div class="wrap" style="max-width:820px"><div class="prose">{!! $html !!}</div></div>
 </section>
 @endsection

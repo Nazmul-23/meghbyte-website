@@ -30,6 +30,8 @@ class SiteController extends Controller
             'projects' => Project::published()->take(3)->get(),
             'packages' => PricingPackage::published()->take(3)->get(),
             'posts' => Post::published()->take(3)->get(),
+            'faqs' => Faq::published()->get(),
+            'budgets' => array_intersect_key(QuoteRequest::BUDGETS, array_flip(QuoteRequest::PUBLIC_BUDGETS)),
         ]);
     }
 
@@ -131,7 +133,7 @@ class SiteController extends Controller
         return view('pages.contact', [
             'seo' => $this->seo('contact'),
             'services' => Service::published()->get(['id', 'title']),
-            'budgets' => QuoteRequest::BUDGETS,
+            'budgets' => array_intersect_key(QuoteRequest::BUDGETS, array_flip(QuoteRequest::PUBLIC_BUDGETS)),
             'selected' => old('service_id', $selected),
         ]);
     }
@@ -213,7 +215,7 @@ class SiteController extends Controller
 
         return [
             'title' => $all[$page]['title'] ?? 'Meghbyte',
-            'description' => $all[$page]['description'] ?? 'Websites, mobile apps and management software from Hathazari, Chattogram.',
+            'description' => $all[$page]['description'] ?? 'Websites, mobile apps and custom software for founders and growing businesses worldwide.',
         ];
     }
 }

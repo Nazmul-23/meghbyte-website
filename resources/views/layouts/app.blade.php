@@ -1,15 +1,9 @@
 @php
     $pageTitle = isset($seo['title']) && $seo['title'] !== 'Meghbyte'
         ? (str_contains($seo['title'], 'Meghbyte') ? $seo['title'] : \Illuminate\Support\Str::limit($seo['title'], 55, '').' | Meghbyte')
-        : 'Meghbyte — Websites, Mobile Apps & Management Software';
-    $pageDesc = $seo['description'] ?? 'Websites, mobile apps and management software from Hathazari, Chattogram.';
-    $nav = [
-        'services.index' => 'Services',
-        'work.index' => 'Work',
-        'pricing' => 'Pricing',
-        'about' => 'About',
-        'insights.index' => 'Insights',
-    ];
+        : 'Meghbyte | Web, App & Custom Software Development Studio';
+    $pageDesc = $seo['description'] ?? 'Meghbyte designs and builds websites, mobile apps and custom software for founders and growing businesses worldwide.';
+    $nav = ['work.index' => 'Work', 'services.index' => 'Services', 'pricing' => 'Pricing', 'about' => 'About'];
 @endphp
 <!doctype html>
 <html lang="en">
@@ -27,43 +21,41 @@
     <meta property="og:type" content="{{ $seo['type'] ?? 'website' }}">
     <meta property="og:image" content="{{ asset('og.jpg') }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="theme-color" content="#1E3A8A">
+    <meta name="theme-color" content="#09060F">
     <link rel="icon" href="{{ asset('icon.svg') }}" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/site.css') }}?v=2">
     @stack('head')
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-    <div class="wrap nav">
-        <a href="{{ route('home') }}" class="brand" aria-label="Meghbyte home">
-            <span class="bi"><img src="{{ asset('icon.svg') }}" alt="" width="32" height="32"></span>
-            <span class="bw">megh<span>byte</span></span>
-        </a>
-        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
-        <nav class="menu" aria-label="Main">
-            @foreach($nav as $route => $label)
-                <a href="{{ route($route) }}" @class(['active' => request()->routeIs(str_replace('.index', '', $route).'*')])>{{ $label }}</a>
-            @endforeach
-            <a class="btn btn-o" href="{{ route('contact') }}">Get a free quote</a>
-        </nav>
+
+<header class="topbar">
+    <div class="wrap">
+        <a href="{{ route('home') }}" class="brand" aria-label="Meghbyte home"><img src="{{ asset('icon.svg') }}" alt="" width="34" height="34">megh<span>byte</span></a>
+        <a class="contact-link" href="https://wa.me/{{ $wa }}" target="_blank" rel="noopener">Chat on WhatsApp ↗</a>
     </div>
 </header>
+
+<nav class="pillnav" aria-label="Main">
+    @foreach($nav as $route => $label)
+        <a href="{{ route($route) }}" @class(['active' => request()->routeIs(str_replace('.index', '', $route).'*'), 'hide-sm' => $route === 'about'])>{{ $label }}</a>
+    @endforeach
+    <a class="cta" href="{{ route('contact') }}">Let's Talk →</a>
+</nav>
 
 <main id="main">
     @yield('content')
 </main>
 
-<footer class="site-footer">
+<footer class="footer">
     <div class="wrap">
-        <div class="foot-grid">
+        <div class="fgrid">
             <div>
-                <div class="brand" style="margin-bottom:12px"><span class="bi"><img src="{{ asset('icon.svg') }}" alt="" width="32" height="32"></span><span class="bw">megh<span>byte</span></span></div>
-                <p style="margin:0 0 8px">Websites, mobile apps and management software for growing businesses.</p>
-                <p class="bn" lang="bn" style="margin:0">আপনার ব্যবসার জন্য সহজ সফটওয়্যার।</p>
+                <a href="{{ route('home') }}" class="brand"><img src="{{ asset('icon.svg') }}" alt="" width="34" height="34">megh<span>byte</span></a>
+                <p class="tag">A founder-led software studio. We design and build websites, apps and custom systems for growing businesses worldwide.</p>
             </div>
             <div>
                 <h4>Services</h4>
@@ -73,29 +65,26 @@
             </div>
             <div>
                 <h4>Company</h4>
-                <a href="{{ route('work.index') }}">Our work</a>
+                <a href="{{ route('work.index') }}">Case studies</a>
                 <a href="{{ route('pricing') }}">Pricing</a>
                 <a href="{{ route('about') }}">About</a>
                 <a href="{{ route('insights.index') }}">Insights</a>
-                <a href="{{ route('privacy') }}">Privacy policy</a>
             </div>
             <div>
                 <h4>Contact</h4>
+                <a href="{{ route('contact') }}">Book a free consultation</a>
                 <a href="https://wa.me/{{ $wa }}" target="_blank" rel="noopener">WhatsApp: +{{ $wa }}</a>
-                <a href="{{ route('contact') }}">Get a free quote</a>
-                <span style="display:block;padding:3px 0">Hathazari, Chattogram, Bangladesh</span>
-                <span style="display:block;padding:3px 0">Working with clients worldwide</span>
+                <span>Working with clients worldwide</span>
             </div>
         </div>
-        <div class="foot-bottom">
-            <span>© <span id="year">{{ date('Y') }}</span> Meghbyte. All rights reserved.</span>
-            <span>Simple. Honest. Built to last.</span>
+        <div class="bigword" aria-hidden="true">meghbyte</div>
+        <div class="bottom">
+            <span>© {{ date('Y') }} Meghbyte. All rights reserved.</span>
+            <a href="{{ route('privacy') }}">Privacy policy</a>
         </div>
     </div>
 </footer>
-
-<a class="btn btn-g wa-float" href="https://wa.me/{{ $wa }}?text={{ rawurlencode('Hi Meghbyte, I want to discuss a project') }}" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬 WhatsApp</a>
-<script src="{{ asset('js/app.js') }}?v=1" defer></script>
+<script src="{{ asset('js/app.js') }}?v=2" defer></script>
 @stack('scripts')
 </body>
 </html>

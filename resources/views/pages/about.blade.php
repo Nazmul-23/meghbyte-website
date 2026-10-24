@@ -1,38 +1,36 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="hero page-hero">
+<section class="phead">
     <div class="wrap">
         <div class="crumbs"><a href="{{ route('home') }}">Home</a> / About</div>
-        <h1>{{ $about['title'] ?? 'About Meghbyte' }}</h1>
-        @if(!empty($about['mission']))<p>{{ $about['mission'] }}</p>@endif
+        <h1>Small Team, <span class="serif grad-text">Big Care</span></h1>
+        @if(!empty($about['mission']))<p class="lead">{{ $about['mission'] }}</p>@endif
     </div>
 </section>
 
-<section class="block">
-    <div class="wrap case">
+<section class="sec" style="padding-top:60px">
+    <div class="wrap split">
         <div class="prose">
             @foreach((array) ($about['story'] ?? []) as $para)
                 <p>{{ $para }}</p>
             @endforeach
         </div>
         <aside>
-            <div class="card" style="background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border:0">
-                <div class="bi" style="width:64px;height:64px;border-radius:16px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center"><img src="{{ asset('icon.svg') }}" alt="" width="52" height="52"></div>
-                <p style="color:#fff;font-size:20px;font-weight:600;margin-top:16px">Simple. Honest. Built to last.</p>
-                <p class="bn" lang="bn" style="color:#D1FAE5">সহজ, সৎ, টেকসই সফটওয়্যার।</p>
-                <p style="color:#E0E7FF;margin-top:10px">Hathazari, Chattogram · Working worldwide</p>
+            <div class="offer sticky">
+                <img src="{{ asset('icon.svg') }}" alt="" width="64" height="64" style="border-radius:18px">
+                <h2 style="margin-top:20px;font-size:32px">Simple. Honest. <span class="serif">Built to last.</span></h2>
+                <p style="color:#DDD6FE;margin-top:12px">Founder-led studio working with clients worldwide.</p>
             </div>
         </aside>
     </div>
 </section>
 
 @if(!empty($about['values']))
-<section class="block alt">
+<section class="sec" style="padding-top:20px">
     <div class="wrap">
-        <div class="eyebrow">Our values</div>
-        <h2>What you can expect from us</h2>
-        <div class="grid3" style="margin-top:28px">
+        <div class="center"><span class="eyebrow">Our values</span><h2 class="title">What You Can <span class="serif grad-text">Expect</span></h2></div>
+        <div class="cards3">
             @foreach($about['values'] as $value)
                 <div class="card"><h3>{{ $value['title'] }}</h3><p>{{ $value['text'] }}</p></div>
             @endforeach
@@ -41,13 +39,12 @@
 </section>
 @endif
 
-<section class="block">
-    <div class="wrap">
-        <div class="eyebrow">Technology</div>
-        <h2>Proven tools, used carefully</h2>
-        <p class="sub">We build on mature, well-supported technology so your software stays maintainable for years.</p>
-        <div class="chips">
-            @foreach(['Laravel', 'PHP', 'Flutter', 'Dart', 'MySQL', 'PostgreSQL', 'Tailwind CSS', 'Firebase', 'bKash / SSLCommerz', 'Git & GitHub'] as $t)<span>{{ $t }}</span>@endforeach
+<section class="sec" style="padding-top:20px">
+    <div class="wrap center">
+        <span class="eyebrow">Technology</span>
+        <h2 class="title">Proven Tools, <span class="serif grad-text">Used Carefully</span></h2>
+        <div class="chips" style="justify-content:center;margin-top:26px">
+            @foreach(['Laravel', 'PHP', 'Flutter', 'Dart', 'PostgreSQL', 'MySQL', 'Livewire', 'Tailwind CSS', 'Firebase', 'Docker', 'GitHub', 'Figma'] as $t)<span>{{ $t }}</span>@endforeach
         </div>
     </div>
 </section>
