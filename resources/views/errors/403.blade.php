@@ -1,0 +1,5 @@
+@extends('errors.minimal')
+@section('title', 'Not allowed')
+@section('code', '403')
+@section('message', 'You are not allowed to do that')
+@section('detail', 'Your account does not have permission for this action.')

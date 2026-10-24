@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- cloud body -->
+  <path d="M58 150 C34 150 20 134 20 114 C20 95 34 81 52 79 C56 55 76 38 100 38 C122 38 140 52 146 72 C166 73 182 90 182 111 C182 133 166 150 144 150 Z" fill="#FFFFFF"/>
+  <!-- code brackets -->
+  <path d="M78 92 L60 110 L78 128" fill="none" stroke="#1E3A8A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M122 92 L140 110 L122 128" fill="none" stroke="#1E3A8A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- byte blocks -->
+  <rect x="92" y="96" width="16" height="16" rx="3" fill="#10B981"/>
+  <rect x="92" y="116" width="16" height="16" rx="3" fill="#F59E0B"/>
+</svg>

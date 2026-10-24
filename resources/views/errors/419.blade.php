@@ -1,0 +1,5 @@
+@extends('errors.minimal')
+@section('title', 'Page expired')
+@section('code', '419')
+@section('message', 'This page expired')
+@section('detail', 'For your security the form expired. Please go back, refresh the page and try again.')
