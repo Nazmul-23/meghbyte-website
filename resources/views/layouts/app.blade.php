@@ -22,11 +22,11 @@
     <meta property="og:image" content="{{ asset('og.jpg') }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#09060F">
-    <link rel="icon" href="{{ asset('icon.svg') }}" type="image/svg+xml">
+    <link rel="icon" href="{{ asset('icon.svg') }}?v=3" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/site.css') }}?v=2">
+    <link rel="stylesheet" href="{{ asset('css/site.css') }}?v=3">
     @stack('head')
 </head>
 <body>
@@ -34,7 +34,7 @@
 
 <header class="topbar">
     <div class="wrap">
-        <a href="{{ route('home') }}" class="brand" aria-label="Meghbyte home"><img src="{{ asset('icon.svg') }}" alt="" width="34" height="34">megh<span>byte</span></a>
+        <a href="{{ route('home') }}" class="brand" aria-label="Meghbyte home"><img src="{{ asset('icon.svg') }}?v=3" alt="" width="34" height="34"><b class="wm">megh<span>byte</span></b></a>
         <a class="contact-link" href="https://wa.me/{{ $wa }}" target="_blank" rel="noopener">Chat on WhatsApp ↗</a>
     </div>
 </header>
@@ -54,7 +54,7 @@
     <div class="wrap">
         <div class="fgrid">
             <div>
-                <a href="{{ route('home') }}" class="brand"><img src="{{ asset('icon.svg') }}" alt="" width="34" height="34">megh<span>byte</span></a>
+                <a href="{{ route('home') }}" class="brand"><img src="{{ asset('icon.svg') }}?v=3" alt="" width="34" height="34"><b class="wm">megh<span>byte</span></b></a>
                 <p class="tag">A founder-led software studio. We design and build websites, apps and custom systems for growing businesses worldwide.</p>
             </div>
             <div>
