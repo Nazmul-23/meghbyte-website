@@ -13,7 +13,10 @@
         </div>
     </div>
     <div class="visual" aria-hidden="true">
-        @if($project->category === 'app')
+        @php $shot = 'images/work/'.$project->slug.'.webp'; @endphp
+        @if(file_exists(public_path($shot)))
+            <figure class="browser"><div class="bar"><i></i><i></i><i></i><span>{{ \Illuminate\Support\Str::slug($project->title) }}.app</span></div><img src="{{ asset($shot) }}?v=1" alt="" loading="lazy" width="1600" height="900"></figure>
+        @elseif($project->category === 'app')
             <div class="mock-phone"><div class="ln"></div><i class="g"></i><i></i><i></i><b>Create quotation</b></div>
         @else
             <div class="mock-win"><div class="dots"><i></i><i></i><i></i></div><div class="ln" style="width:40%"></div><div class="row"><i class="g"></i><i></i><i></i></div><div class="row"><i></i><i></i></div><div class="ln"></div><div class="ln" style="width:70%"></div></div>

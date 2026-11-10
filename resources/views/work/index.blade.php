@@ -5,7 +5,7 @@
     <div class="wrap">
         <div class="crumbs"><a href="{{ route('home') }}">Home</a> / Work</div>
         <h1>Our <span class="serif grad-text">Work</span></h1>
-        <p class="lead">Real products, built and used in real businesses. Each case study shows the problem, what we built and where it stands today.</p>
+        <p class="lead">Each case study shows the problem, what we are building and real screens from the system.</p>
         <div class="chips" style="justify-content:center;margin-top:28px">
             <a href="{{ route('work.index') }}" @class(['on' => ! $category])>All</a>
             @foreach(\App\Models\Project::CATEGORIES as $key => $label)

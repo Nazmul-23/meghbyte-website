@@ -21,7 +21,7 @@
 <section class="hero">
     <div class="wrap">
         <span class="eyebrow">Founder-led software studio</span>
-        <h1>We Build <span class="serif">Software</span> That Grows <span class="chipdots" aria-hidden="true"><i style="background:#8B5CF6"></i><i style="background:#34D399"></i><i style="background:#FBBF24"></i></span> Your <span class="serif grad-text">Business</span></h1>
+        <h1>We Build <span class="serif">Software</span> That Grows Your <span class="serif grad-text">Business</span></h1>
         <div class="tagpill">Websites · Mobile Apps · Custom Systems</div>
         <p class="lead">{{ $home['hero_subtitle'] ?? 'We design and build websites, e-commerce stores, mobile apps and custom business systems for founders and growing companies worldwide.' }}</p>
         <div class="ctas">
@@ -31,25 +31,44 @@
     </div>
     <div class="showcase" aria-hidden="true">
         <div class="shot">
-            <div class="t">Revenue · This month</div>
-            <div class="k"><b>$48.2k<small>Sales</small></b><b>312<small>Orders</small></b></div>
+            <div class="t">Online store · This month</div>
+            <div class="k"><b>$12,480<small>Revenue</small></b><b>326<small>Orders</small></b></div>
             <svg viewBox="0 0 160 50"><path d="M0 42 L20 36 L40 39 L60 26 L80 30 L100 17 L120 21 L140 9 L160 11" fill="none" stroke="#34D399" stroke-width="3"/></svg>
+            <div class="sub up">+18.2% vs last month</div>
         </div>
         <div class="shot light">
-            <div class="t">Attendance · Class 10</div>
-            <div class="grid7">@foreach(str_split('gggrggggggggrgggggggg') as $c)<i @class(['r' => $c === 'r'])></i>@endforeach</div>
-            <div class="bar s"></div><div class="bar" style="width:45%"></div>
+            <div class="t">Attendance · HSC-1 · Today</div>
+            <ul class="rows">
+                <li><span>Tanvir Ahmed</span><em class="ok">Present</em></li>
+                <li><span>Nusrat Jahan</span><em class="ok">Present</em></li>
+                <li><span>Sadia Akter</span><em class="no">Absent</em></li>
+                <li><span>Arif Hossain</span><em class="ok">Present</em></li>
+            </ul>
+            <div class="sub">Guardian SMS sent · 10:15</div>
         </div>
-        <div class="shot"><div class="phone"><div class="bar v"></div><div class="tile g"></div><div class="tile"></div><div class="tile"></div></div></div>
         <div class="shot">
-            <div class="code"><span class="a">Route</span>::post(<span class="b">'/orders'</span>)<br><span class="a">class</span> Invoice <span class="a">extends</span> Model<br>&nbsp;&nbsp;<span class="c">// clean, tested code</span><br><span class="a">return</span> response()-&gt;json()</div>
-            <div class="bar m"></div><div class="bar s"></div>
+            <div class="phone">
+                <div class="ph-h">Order #2081</div>
+                <div class="ph-i"><span>Cotton kurti × 2</span><b>$48</b></div>
+                <div class="ph-i"><span>Delivery</span><b>$4</b></div>
+                <div class="ph-i tot"><span>Total</span><b>$52</b></div>
+                <div class="ph-s">Out for delivery</div>
+                <div class="ph-btn">Track order</div>
+            </div>
+        </div>
+        <div class="shot">
+            <div class="code"><span class="kw">Route</span>::post(<span class="st">'/orders'</span>, ...);<br><br><span class="kw">class</span> Invoice <span class="kw">extends</span> Model<br>{<br>&nbsp;&nbsp;<span class="cm">// clean, tested code</span><br>&nbsp;&nbsp;<span class="kw">public function</span> total()<br>}</div>
+            <div class="sub up">✓ 48 tests passed</div>
         </div>
         <div class="shot grad">
             <div class="t" style="color:#fff">Quotation #1042</div>
-            <div class="bar" style="background:rgba(255,255,255,.35)"></div><div class="bar" style="background:rgba(255,255,255,.25);width:60%"></div>
-            <div style="font-size:28px;font-weight:800;margin-top:22px">$2,450</div>
-            <div class="bar" style="background:#FBBF24;width:38%;height:26px;border-radius:9px;margin-top:14px"></div>
+            <ul class="rows inv">
+                <li><span>Website design</span><b>$900</b></li>
+                <li><span>Admin panel</span><b>$1,100</b></li>
+                <li><span>Hosting setup</span><b>$450</b></li>
+            </ul>
+            <div class="inv-t"><span>Total</span>$2,450</div>
+            <div class="inv-b">Approve &amp; pay 50%</div>
         </div>
     </div>
 </section>
@@ -67,8 +86,8 @@
 <section class="sec">
     <div class="wrap center">
         <span class="eyebrow">Selected work</span>
-        <h2 class="title">Real Products, <span class="serif grad-text">Real Results</span></h2>
-        <p class="lead" style="margin-top:16px">We build the software we use ourselves. Our first products run inside real businesses every day.</p>
+        <h2 class="title">Products We <span class="serif grad-text">Build</span></h2>
+        <p class="lead" style="margin-top:16px">Real screens from the systems we are building: a school and coaching management system and a Laravel online store.</p>
     </div>
     <div class="wrap">
         <div class="cases">

@@ -65,7 +65,7 @@
       "title_bn": null,
       "icon": "📱",
       "summary": "iOS and Android apps built with Flutter for customers, staff or internal tools.",
-      "description": "A mobile app puts your product in your customer's pocket, or gives your team a simple tool they can use anywhere. We build with Flutter, so one codebase runs on both iOS and Android.\n\nOur own SS Helper app is a good example: a catalogue and quotation app used every day in a real business. We build every app the same way: focused on the few features that matter, with a clean interface anyone can learn quickly.",
+      "description": "A mobile app puts your product in your customer's pocket, or gives your team a simple tool they can use anywhere. We build with Flutter, so one codebase runs on both iOS and Android.",
       "features": [
         "iOS and Android from one codebase",
         "Secure login and user accounts",
@@ -147,27 +147,6 @@
     }
   ],
   "projects": [
-    {
-      "slug": "ss-helper",
-      "title": "SS Helper",
-      "client_type": "Stainless steel & aluminium fabrication business",
-      "status": "Live",
-      "summary": "A Flutter catalogue and quotation app used daily in a stainless steel and aluminium business.",
-      "problem": "Prices and product details were spread across notebooks and memory. Preparing a quotation took too long, and numbers were not always consistent from one quote to the next.",
-      "solution": "We built SS Helper, a Flutter mobile app that holds the full product catalogue and prepares professional quotations in a few taps. Quotes are shared with customers straight from the phone, on site or in the showroom.",
-      "features": [
-        "Product catalogue with item details and prices",
-        "Quick quotation builder",
-        "Automatic totals",
-        "Share quotations directly from the phone",
-        "Simple interface for daily use"
-      ],
-      "tech": [
-        "Flutter",
-        "Dart"
-      ],
-      "result": "SS Helper is live and used every day to prepare catalogues and quotations. It is our working proof that we build software for real daily use."
-    },
     {
       "slug": "coaching-center-management-system",
       "title": "School & Coaching Management System",
@@ -408,7 +387,7 @@
     },
     "work": {
       "title": "Our Work | Case Studies | Meghbyte",
-      "description": "Real Meghbyte projects: the SS Helper quotation app, a school and coaching management system and a Laravel e-commerce store."
+      "description": "Meghbyte projects: a school and coaching management system and a Laravel e-commerce store, with real screens from each."
     },
     "pricing": {
       "title": "Pricing | Website, App & Software Packages | Meghbyte",
