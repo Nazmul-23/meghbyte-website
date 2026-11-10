@@ -12,7 +12,7 @@ class Project extends Model
 
     public const CATEGORIES = ['web' => 'Websites', 'app' => 'Mobile apps', 'system' => 'Management systems'];
 
-    public const STATUSES = ['live' => 'Live', 'in_development' => 'In development'];
+    public const STATUSES = ['live' => 'Live', 'in_development' => 'In development', 'demo' => 'Demo project'];
 
     protected $fillable = [
         'title', 'slug', 'client_type', 'category', 'status', 'summary', 'problem', 'solution',
