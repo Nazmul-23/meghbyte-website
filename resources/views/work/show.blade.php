@@ -8,6 +8,10 @@
         <h1>{{ $project->title }}</h1>
         <p class="lead">{{ $project->summary }}</p>
     </div>
+    @php $shot = 'images/work/'.$project->slug.'.webp'; @endphp
+    @if(file_exists(public_path($shot)))
+        <div class="wrap"><figure class="browser case-shot"><div class="bar"><i></i><i></i><i></i><span>{{ \Illuminate\Support\Str::slug($project->title) }}.app</span></div><img src="{{ asset($shot) }}?v=1" alt="{{ $project->title }} screen" width="1600" height="900"></figure></div>
+    @endif
 </section>
 
 <section class="sec" style="padding-top:60px">

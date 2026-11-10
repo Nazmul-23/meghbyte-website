@@ -18,6 +18,15 @@ return new class extends Migration
             Setting::put('seo', $seo);
         }
 
+        $about = Setting::get('about');
+        if (is_array($about) && ! empty($about['story'])) {
+            $about['story'] = array_map(
+                fn ($p) => str_replace(' SS Helper, a catalogue and quotation app, is used every day in that business, and a school', ' A school', $p),
+                (array) $about['story']
+            );
+            Setting::put('about', $about);
+        }
+
         $service = Service::query()->where('slug', 'mobile-apps')->first();
         if ($service && str_contains((string) $service->body, 'SS Helper')) {
             $paras = array_filter(
